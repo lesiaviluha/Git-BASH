@@ -1,0 +1,214 @@
+ 4. Создать внешний репозиторий c названием JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone git@github.com:lesiaviluha/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.
+cd json|touch new.json
+ 7. Добавить файл под гит.
+add .
+
+ 8. Закоммитить файл.
+git commit -m "add new.json"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+vim new.json
+i
+{"first name": "Viluha",
+ "last name": "Alesia",
+ "age":"27",
+ "count pets":"1",
+ "future salary":"500"
+}
+
+ 11. Отправить изменения на внешний репозиторий.
+
+git add .
+git commit -m "modified new.json"
+git push
+
+ 12. Создать файл preferences.json
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+{
+        "favorite_films":"rain man",
+        "favorite_series": "Breaking_Bad",
+        "favorite_eat":"draniki",
+        "favorite_season":" summer",
+        "i_want_to_visit_contry":"Finland"
+        }
+
+
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+vim skills.json
+
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git commit -m "add two files"|git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+
+
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 20. Синхронизировать внешний и локальный репозиторий JSONgit 
+git pull
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone git@github.com:lesiaviluha/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+
+cd xml
+touch new.xml
+
+ 24. Добавить файл под гит.
+
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "commit new.xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+
+git push 
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+vim new.xml
+<xml>
+	<first name> Вилюха </first name> 
+	<last name> Алеся </last name>
+	<age> 27 </age>
+	<count pets> 1 </caunt pats>
+	<salary> 500$ </salary>
+</xml>
+
+ 28. Отправить изменения на внешний репозиторий.
+git add .
+git commit "modify new.xml"
+git push
+
+
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+vim preferences.xml
+<xml>
+	<favorite_films> rain man </favorite_films>  
+	<favorite_series> Breaking_Bad </favorite_series> 
+	<favorite_eat> draniki </favorite_eat>
+	<favorite_season> summer </favorite_season>
+	<i_want_to_visit_contry> Finland </i_want_to_visit_contry>
+</xml>
+
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+vim sklls.xml 
+<xml>
+	<skil_namber_1> to create bag report </skil_namber_1>
+	<skil_namber_2> to write code on Pyton and JavaScript </skil_namber_2>
+	<skil_namber_3> to work in GitHub </skil_namber_3>
+</xml>
+
+ 32. Сделать коммит в одну строку.
+git add. | git commit -m "add skills.xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone git@github.com:lesiaviluha/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”.
+cd txt
+touch new.txt
+
+ 4. Добавить файл под гит.
+git add new.txt
+
+ 5. Закоммитить файл.
+git commit -m "add new.txt"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+        First name: Вилюха;
+        Last name: Алеся;
+        Age:27;
+        Count pets: 1;
+        Salary: 500
+
+ 8. Отправить изменения на внешний репозиторий.
+git add .
+git commit -m "modified new.txt"
+git push
+
+ 9. Создать файл preferences.txt
+
+touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+Favorite_films: rain man ;
+Favorite_series: Breaking_Bad;
+Favorite_eat: draniki;
+Favorite_season: summer;
+I_want_to_visit_contry: Finland.
+
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+vim skills.txt
+Skil_namber_1: to create bag report;
+skil_namber_2: to write code on Pyton and JavaScript;
+Skil_namber_3: to work in GitHub .
+
+ 12. Сделать коммит в одну строку.
+git add .|git commit -m "add preferences.txt"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
